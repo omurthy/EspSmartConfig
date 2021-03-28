@@ -1,0 +1,22 @@
+name: esptouch_example
+description: Demonstrates how to use the esptouch plugin.
+publish_to: 'none'
+version: 0.1.5
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  esptouch_flutter:
+    path: ../
+
+flutter:
+  uses-material-design: true
